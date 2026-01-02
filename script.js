@@ -1,12 +1,15 @@
+const strongEle = document.querySelectorAll("strong");
+const paraEle = document.quertSelector("p");
+
 function highlight() {
-    //Write your code here
-
-
+    strongEle.forEach((val) => {
+        val.style.color = "green"
+    })
 }
 
 
 function return_normal() {
-    //Write your code here
-
-    
+    strongEle.forEach((val) => {
+        val.style.color = "black"
+    })
 }
