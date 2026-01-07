@@ -1,5 +1,5 @@
 const strongEle = document.querySelectorAll("strong");
-const paraEle = document.quertSelector("p");
+const paraEle = document.querySelector("p");
 
 function highlight() {
     strongEle.forEach((val) => {
